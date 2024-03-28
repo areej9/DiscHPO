@@ -17,7 +17,7 @@ HPO_Linking+Training | We train clinicalRoBERTa from the scratch with our data t
 Resolving EvalScript Errors |  Created to solve errors resulting while using the official Evaluation script such as adding missing obs, deleting duplications ..etc
 HPO_DiscResultFilter |  
 HPO_AlignedDiscNEs | used to calculate the results for Discontinuoues span, by taking the "alignmentPheNorm" that resulted from the official evaluation script, and drop non-discNEs then calculate the metrics(EM,P,R,F1)
-BioEvaluationScript | Organisers Official Evaluation Script
+BioCreativeVIIITask3EvaluationScript | Organisers Official Evaluation Script
 
 # Notebooks Order:
 (1) Start with HPO_Preprocessing.ipynb run from start to end of preprocessing.
