@@ -21,9 +21,13 @@ BioEvaluationScript | Organisers Official Evaluation Script
 
 # Notebooks Order:
 (1) Start with HPO_Preprocessing.ipynb run from start to end of preprocessing.
+
 (2) Run HPO_NER.ipynb : just change model name and tokeniser.
+
 (3) Take NER results (e.g. T5-Large),put it in "content/biocreative/result", open HPO_Postprocessing, run it all over the dataset.
+
 (4) take TBL-Model.tsv and put it in "content/biocreative/result", in  HPO_Linking_fintuning.ipynb put the path of file and run linking. ((Skip training Block)).
+
 (5) For evaluation, run the normalisation results on Resolving EvalScript Errors.ipynb.
 
 
